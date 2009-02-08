@@ -2,7 +2,7 @@
 
 use strict;
 use warnings;
-use Test::More tests => 5;
+use Test::More tests => 3;
 
 sub not_in_file_ok {
     my ($filename, %regex) = @_;
@@ -46,5 +46,6 @@ sub module_boilerplate_ok {
 }
 
 module_boilerplate_ok('lib/LedgerSMB/API.pm');
-module_boilerplate_ok('lib/LedgerSMB/API/OSCommerce.pm');
-module_boilerplate_ok('lib/LedgerSMB/API/OSCommerce/YourCustomizations.pm');
+# module_boilerplate_ok('lib/LedgerSMB/API/YMD.pm');
+# module_boilerplate_ok('lib/LedgerSMB/API/OSCommerce.pm');
+# module_boilerplate_ok('lib/LedgerSMB/API/OSCommerce/HomeChip.pm');

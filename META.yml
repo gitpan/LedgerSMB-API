@@ -1,7 +1,7 @@
 --- #YAML:1.0
 name:                LedgerSMB-API
-version:             0.01
-abstract:            The great new LedgerSMB::API!
+version:             0.04a
+abstract:            Exposing the LedgerSMB API to Integrators!
 license:             ~
 generated_by:        ExtUtils::MakeMaker version 6.36
 distribution_type:   module
